@@ -1,4 +1,4 @@
 module.exports = {
-  'table' : 'mysql_migrations_347ertt3e',
+  'table' : 'mariadb_migrations_01',
   'migrations_types' : ['up', 'down']
 };

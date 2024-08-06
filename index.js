@@ -8,6 +8,7 @@ var migrations_types = config['migrations_types'];
 
 var updateSchema = false;
 var migrate_all = false;
+
 function migration(conn, path, cb, options) {
   if(cb == null)
     cb = () => {};

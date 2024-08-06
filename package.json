@@ -1,7 +1,7 @@
 {
-  "name": "mysql-migrations",
-  "version": "1.0.7",
-  "description": "A tool to use with mysql package to maintain migrations",
+  "name": "taulukko-mariadb-migrations",
+  "version": "1.0.1",
+  "description": "A tool to use with mariadbb package to maintain migrations",
   "main": "index.js",
   "scripts": {
     "test": "node node_modules/.bin/mocha test/*"
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.2.0",
-    "mysql": "^2.13.0"
+    "mariadb": "^3.3.1",
+    "mocha": "^3.2.0"
   }
 }
